@@ -1,7 +1,8 @@
-# menambah requirements.txt
-# buat file requirements.txt
-# pip install -r requirements.txt
-# mnambah isian : pip freeze > requirements.txt
+# buat file requirements.txt dan menambah lib pip list
+  pip freeze > requirements.txt
 
-
-# Run app : streamlit run app.py
+# Install requirement
+	pip install -r requirements.txt
+	
+# Run app :
+	streamlit run app.py
