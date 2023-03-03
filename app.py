@@ -7,11 +7,11 @@ import pandas as pd
 from PIL import Image
 
 df = pd.read_csv('datasets/Iris.csv')
-unjaya = Image.open(r'assets\img\logo_UNJAYA.png')
+# unjaya = Image.open(r'assets\img\logo_UNJAYA.png')
 
 st.set_page_config(
 	page_title="Iris-class-KNN	",
-	page_icon=unjaya,
+	page_icon="smile",
 	layout="wide",
 	initial_sidebar_state="expanded",
 	menu_items={
@@ -22,7 +22,7 @@ st.set_page_config(
 )
 
 with st.sidebar:
-	st.image(unjaya,caption="Universitas Jenderal Achmad Yani Yogyakarta", width=270,)
+	# st.image(unjaya,caption="Universitas Jenderal Achmad Yani Yogyakarta", width=270,)
 	choose = option_menu(
 		"Iris Classification", ["Home", "Classifikasi"],
 		icons=['house', 'camera fill'],
